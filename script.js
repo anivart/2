@@ -2,8 +2,17 @@
 $( document ).ready(function() {
 	alert("bienvenue");
 	$ ("p").on( "click", function() {
-		$("p").addClass ('red');	
-	});
+	if ($("p").hasClass('red')) {
+
+		$("p").removeClass('red')
+	
+	}else{
+
+	$("p").addClass ('red');	
+	}
 });
+});
+
+
 
 
