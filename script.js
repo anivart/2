@@ -10,6 +10,9 @@ $( document ).ready(function() {
 
 	$(this).addClass ('red');	
 	}
+
+	$(this).html("HELLO");
+	
 });
 });
 
